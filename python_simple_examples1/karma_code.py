@@ -36,7 +36,7 @@ print("sessiz harfler: ",sessizler,end=' ')
 """
 #kullanıcıdan sinema ya da tiyatro tercihi sorulsun. sinema izlemek için 15tl, tiyatro izlemek için 10 tl ödemesi gerekmektedir.
 #öğrencilere %50 indirim yapıldığı düşünülerek öğrenci ise indirim yapılan;öğrenci değil ise indirimsiz tutarını hesaplayarak ekrana yazdıran kod:
-"""
+
 secim=input("sinema için(1),tiyatro için(2) tuşlayınız...")
 öğrenci=input(("öğrenci misiniz?(E\H): "))
 tutar=0
@@ -52,4 +52,3 @@ if öğrenci=='E' or öğrenci=='e':
     tutar=tutar/2
 
 print("ödemeniz gereken tutar: ",format(tutar))
-"""
