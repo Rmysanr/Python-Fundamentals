@@ -41,5 +41,18 @@ for i in range(10,1000):
         list2.append(i**2)
 print(list2)
 
+# 5 VE BEŞİN KUVVETİ OLAN SAYILARI BULUNUZ:
 
+sayı = int(input("bir sayı giriniz: "))
+
+if sayı % 5 != 0:
+    print("sayınız beşin katı değildir.")
+
+else:
+    while sayı % 5 == 0:
+        sayı = (sayı / 5)
+    if (sayı == 1):
+        print("sayı beşin kuvvetidir.")
+    else:
+        print("sayınız beşin kuvveti değildir.")
 
